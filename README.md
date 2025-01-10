@@ -1,7 +1,6 @@
-[![Test Helm Charts](https://github.com/timescale/helm-charts/actions/workflows/tests.yml/badge.svg)](https://github.com/timescale/helm-charts/actions/workflows/tests.yml)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/timescale/helm-charts)](https://github.com/timescale/helm-charts/pulse/monthly)
-[![License](https://img.shields.io/github/license/timescale/helm-charts)](https://github.com/timescale/helm-charts/blob/main/LICENSE)
-[![Slack](https://img.shields.io/badge/chat-join%20slack-brightgreen.svg)](https://timescaledb.slack.com/)
+[![Test Helm Charts](https://github.com/vendgogh/helm-charts/actions/workflows/tests.yml/badge.svg)](https://github.com/vendgogh/helm-charts/actions/workflows/tests.yml)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/vendgogh/helm-charts)](https://github.com/timescale/helm-charts/pulse/monthly)
+[![License](https://img.shields.io/github/license/vendgogh/helm-charts)](https://github.com/vendgogh/helm-charts/blob/main/LICENSE)
 
 # Timescale Helm Charts
 
