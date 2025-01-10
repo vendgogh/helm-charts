@@ -78,6 +78,18 @@
         "mountPath": {
           "type": "string"
         },
+        "local": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "path": {
+              "type": "string"
+            }
+          }
+        },
         "size": {
           "type": "string"
         },

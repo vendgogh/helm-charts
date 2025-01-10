@@ -606,6 +606,14 @@ definitions:
           - "null"
       mountPath:
         type: string
+      local:
+        type: object
+        additionalProperties: false
+        properties:
+          enabled:
+            type: boolean
+          path:
+            type: string
       annotations:
         type: object
         additionalProperties:
