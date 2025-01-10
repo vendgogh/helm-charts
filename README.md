@@ -1,6 +1,3 @@
-|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | This project is no longer maintained.
-|---|---|
-
 [![Test Helm Charts](https://github.com/timescale/helm-charts/actions/workflows/tests.yml/badge.svg)](https://github.com/timescale/helm-charts/actions/workflows/tests.yml)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/timescale/helm-charts)](https://github.com/timescale/helm-charts/pulse/monthly)
 [![License](https://img.shields.io/github/license/timescale/helm-charts)](https://github.com/timescale/helm-charts/blob/main/LICENSE)
@@ -17,7 +14,7 @@ project is currently in active development.
 The Charts are available in a Helm Chart Repository hosted in Amazon S3 bucket.
 The following command will make this repository ready for use:
 ```
-helm repo add timescale 'https://charts.timescale.com/'
+helm repo add timescale 'https://vendgogh.github.io/helm-charts/'
 ```
 For more information, have a look at the [Using Helm](https://helm.sh/docs/intro/using_helm/#helm-repo-working-with-repositories) documentation.
 
@@ -35,4 +32,3 @@ Resources in this repository are released under the [Apache 2.0 license](LICENSE
 # Contributing
 
 If you wish to make contributions to this project, please refer to [Contributor Instructions](CONTRIBUTING.md) for more information.
-
