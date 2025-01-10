@@ -1,6 +1,4 @@
-[![Test Helm Charts](https://github.com/vendgogh/helm-charts/actions/workflows/release.yml/badge.svg)](https://github.com/vendgogh/helm-charts/actions/workflows/release.yml)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/vendgogh/helm-charts)](https://github.com/timescale/helm-charts/pulse/monthly)
-[![License](https://img.shields.io/github/license/vendgogh/helm-charts)](https://github.com/vendgogh/helm-charts/blob/main/LICENSE)
 
 # Timescale Helm Charts
 
