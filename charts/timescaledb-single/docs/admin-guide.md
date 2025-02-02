@@ -368,7 +368,21 @@ bootstrapFromBackup:
   secretName: pgbackrest-bootstrap # optional
 ```
 
-**Note**: Once the data has been restored from backup, you may mark `bootstrapFromBackup` as disabled and enable `backup` in helm value file and update the release inorder to setup the backup for restored release.
+**Note**: Once the data has been restored from backup, you may mark
+`bootstrapFromBackup` as disabled and enable `backup` in helm value file and
+update the release inorder to setup the backup for restored release.
+
+Once backup is enabled on the restored release, pgbackrest needs to be initialized with the backup configuration.
+```console
+# Get the pod name of the master
+kubectl get pod -n timescale-0333 -l cluster-name=timescale-0333,role=master
+
+# Initialize pgbackrest
+kubectl exec -ti -n {namespace} {pod-name} pgbackrest stanza-create
+
+# manually run the backup job
+kubectl create job -n {namespace} --from=cronjob/{release-name}-timescaledb-full-weekly
+```
 
 Restoring a different deployment using an existing deployment is possible, but can be dangerous,
 as at this point you may be having 2 deployments pointing to the same S3 bucket/path.
